@@ -52,20 +52,20 @@
           </nav>
         </div>
       </header>
-      <!-- header end  -->
+      <!-- header  nav end  -->
 
       <!-- carousel strat ^^^^^^8** -->
       <section>
-        <div class="container mt-">
+        <div class="container">
           <div
             id="carouselExampleCaptions"
             class="carousel slide"
             data-bs-ride="false"
           >
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images/cover/cover-1.png" alt="..." />
-                <div class="carousel-caption d-none d-md-block my-5">
+              <div class="carousel-item active  ">
+                <img class="img-fluid" src="images/cover/cover-1.png" alt="..." />
+                <div class="carousel-caption h-100 d-flex flex-column justify-content-center align-items-center  ">
                   <h5 class="fs-1">Ther is our larning prosse</h5>
                   <p>
                     Some representative placeholder content for the first slide.
@@ -139,40 +139,179 @@
       <!-- ux/ui desigen start -->
       <section>
         <div class="container">
-          <div class="row">
-            <div class="col col-md-6 col-ms-12">
-              <div class="card mb-3" style="max-width: 540px">
-                <div class="row ">
-                  <div class="col-md-4">
-                    <img
-                      src="images/course/course-1.png"
-                      class="img-fluid rounded-start"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        This is a wider card with supporting text below as a
-                        natural lead-in to additional content. This content is a
-                        little bit longer.
-                      </p>
-                      <p class="card-text">
-                        <small class="text-muted"
-                          >Last updated 3 mins ago</small
-                        >
-                      </p>
-                    </div>
-                  </div>
-                </div>
+        <div class="row ">
+          <div class="col d-flex col-md-6 shadow-lg my-3 justify-content-evenly ">
+            <img src="images/course/course-1.png" alt="">
+          <div class="mx-3 my-4">  <h3>Fundamental Of UI/UX Design</h3>
+          <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+          <h4>Price : 20$</h4>
+          </div>
+          </div>
+          <div class="col d-flex col-md-6 shadow-lg my-3">
+            <img  src="images/course/course-2.png" alt="">
+          <div class="mx-3 my-4">  <h3>Fundamental Of UI/UX Design</h3>
+          <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+          <h4>Price : 20$</h4>
+          </div>
+          </div>
+          <div class="col d-flex col-md-6 shadow-lg my-3">
+            <img src="images/course/course-3.png" alt="">
+          <div class="mx-3 my-4">  <h3>Fundamental Of UI/UX Design</h3>
+          <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+          <h4>Price : 20$</h4>
+          </div>
+          </div>
+          <div class="col d-flex col-md-6 shadow-lg my-3">
+            <img src="images/course/course-4.png" alt="">
+          <div class="mx-3 my-4">  <h3>Fundamental Of UI/UX Design</h3>
+          <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+          <h4>Price : 20$</h4>
+          </div>
+          </div>
+        
+          <div class="d-flex justify-content-center">  <button type="button" class="btn btn-primary    fs-3">See More Courses</button></div>
+        </div>
+      </section>
+      <!-- ux/ui desigen send -->
+
+      <!-- explor in empoler start -->
+      <section class="banner mb-4 ">
+        <div class="container d-flex flex-column d-md-flex flex-md-row py-sm-5 ">
+     
+     <div class="row   ">
+       <div class="col d-flex ">
+       <div class="col">
+        <div class="d-flex order-md-1 order-2  working h-100" >
+          <img class="img-fluid " src="images/working.png" alt="">
+        </div>
+       </div>
+       <div class="col bg-info p-5"> 
+         <div class="mt-5">
+          <div>
+            <h1>Explore The elearning Institute</h1>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.</p>
+    
+          </div>
+          <div>
+            <p>Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
+          </div>
+          <div class="d-flex justify-content-between">
+            <div class=""><h1>3.2k</h1>
+              <p>Online Course</p>
+            </div>
+            <div><h1>600+</h1>
+              <p>Online Course</p>
+            </div>
+            <div><h1>3.3k</h1>
+              <p>Online Course</p>
+            </div>
+          
+          </div>
+          <div class=" ">
+            <button class="btn btn-outline-success fs-2" type="submit">
+              Search
+            </button>
+          </div>
+         </div>
+    </div>
+       </div>
+     </div>
+        </div>
+      </section>
+      <!-- explor in empoler end -->
+
+<!-- ther ar start to modal  -->
+<section class="">
+  <div class="container ">
+    <div class="row g-0 bg-info broder rounded position-relative d-flex align-items-center justify-content-center ">
+      <div class="col-md-6 mb-md-0 p-md-4 text-light ">
+        
+          <h1>Rady to join?</h1>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+      
+      </div>
+      <div class="col-md-6  ps-md-0 d-flex align-items-center justify-content-center">
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Show a second modal and hide this one with the button below.
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
               </div>
             </div>
           </div>
         </div>
-      </section>
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Hide this modal and show the first with the button below.
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open first modal</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ther ar end to modal  -->
 
-      <!-- ux/ui desigen send -->
+<!-- meet successfull start  -->
+<section>
+  <div class="container">
+  <div class="row">
+    <div class="col-md-4 mt-5">
+      <h1>Meet our successfull students </h1>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+    </div>
+    <div class="col ">
+      <div class="d-flex ">
+        <div class="card" style="width: 18rem;">
+          <img src="images/student/student-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/student/student-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/student/student-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/student/student-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <button type="button" class="btn btn-primary px-5">button</button>
+  </div>
+</section>
+<!-- meet successfull end****)(#) -->
     </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
